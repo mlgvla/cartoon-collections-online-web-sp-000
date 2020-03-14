@@ -11,6 +11,7 @@ end
 def long_planeteer_calls(array)
   collection = []
   collection << array.collect {|word| word.length > 4}
+  binding.pry
   if collection.include?(true)
     true
   else
@@ -23,4 +24,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-# long_planeteer_calls(["wind", "Monica", "tree", "axe", "code"])
+long_planeteer_calls(["wind", "Monica", "tree", "axe", "code"])
