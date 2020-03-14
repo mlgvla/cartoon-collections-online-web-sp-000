@@ -10,9 +10,9 @@ end
 
 def long_planeteer_calls(array)
   collection = []
-  binding.pry
-  collection << array.collect {|word| word.length > 4}
 
+  collection << array.collect {|word| word.length > 4}
+binding.pry
   if collection.size == 0
     return false
   end
