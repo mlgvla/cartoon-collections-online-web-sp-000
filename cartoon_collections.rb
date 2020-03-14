@@ -11,7 +11,7 @@ end
 def long_planeteer_calls(array)
   collection = []
   collection << array.collect {|word| word.length > 4}
-  collection.include?(true)? true : false
+  if collection.include?
 end
 
 def find_the_cheese# code an argument here
