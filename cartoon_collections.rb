@@ -34,4 +34,3 @@ end
 
 cheddar_cheese = %w[banana cheddar sock]
 find_the_cheese(cheddar_cheese)
-
