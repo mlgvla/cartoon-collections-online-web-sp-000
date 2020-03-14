@@ -23,14 +23,14 @@ def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   cheese_types.each do |cheese|
-    binding.pry
     if array.include?(cheese)
-      cheese
+      return cheese
     else
-      nil
+      return nil
     end
   end
 end
-
-cheddar_cheese = %w[banana cheddar sock]
-find_the_cheese(cheddar_cheese)
+# 
+# cheddar_cheese = %w[banana cheddar sock]
+# find_the_cheese(cheddar_cheese)
+# 
