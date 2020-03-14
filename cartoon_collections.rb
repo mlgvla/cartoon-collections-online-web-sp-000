@@ -9,6 +9,7 @@ end
 def long_planeteer_calls(array)
   collection = []
   collection << array.collect {|word| word.length > 4}
+  puts collection
   if collection.size == 0
     return false
   end
