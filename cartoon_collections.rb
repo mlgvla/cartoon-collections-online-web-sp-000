@@ -12,7 +12,7 @@ def long_planeteer_calls(array)
   if collection.size == 0
     return false
   end
-  true  
+  true
 end
 
 def find_the_cheese# code an argument here
