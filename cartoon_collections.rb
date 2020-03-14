@@ -10,7 +10,8 @@ end
 
 def long_planeteer_calls(array)
   collection = []
-  collection << array.collect {|word| word.length > 4}
+  collection = array.collect {|word| word.length > 4}
+#  collection << array.collect {|word| word.length > 4}
   if collection.include?(true)
     true
   else
